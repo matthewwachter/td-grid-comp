@@ -18,3 +18,5 @@ A TouchDesigner component that can be used to create a grid of any size. Impleme
 [IQ - 2D SDFs](https://iquilezles.org/articles/distfunctions2d/)
 
 This component offers a rich array of parameters for fine-tuning the visual aesthetic of your grids.
+
+![GridCompPars](img/gridComp_pars.jpg)
