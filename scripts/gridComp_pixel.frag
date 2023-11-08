@@ -122,7 +122,7 @@ void diagonals(vec2 p, float px_size, float aspect, inout vec4 fragColor)
 void border(vec2 p, vec2 res, inout vec4 fragColor)
 {
 	float d = min(min(p.x, 1.0-p.x)*res.x, min(p.y, 1.0-p.y)*res.y);
-	fragColor = mix(fragColor, border_c, 1.0-step(border_w, d));
+	fragColor = mix(fragColor, border_c, (1.0-step(border_w, d))*border_c.a);
 }
 
 // input logo
